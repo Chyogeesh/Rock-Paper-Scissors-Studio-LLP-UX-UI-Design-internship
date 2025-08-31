@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Qualtech Edge Homepage</title>
+  <script src="https://cdn.jsdelivr.net/npm/react@18.2.0/umd/react.production.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/react-dom@18.2.0/umd/react-dom.production.min.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+    body { font-family: 'Inter', sans-serif; }
+    .hero-bg { background: linear-gradient(135deg, #1C2526 0%, #2E3A59 100%); }
+    .glow-effect { box-shadow: 0 0 20px rgba(0, 174, 239, 0.3); }
+    .animate-float { animation: float 3s ease-in-out infinite; }
+    @keyframes float { 
+      0%, 100% { transform: translateY(0); } 
+      50% { transform: translateY(-10px); } 
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="text/babel">
+    const Hero = () => (
+      <section className="hero-bg text-white py-20 px-6 md:px-12 lg:px-24">
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center">
+          <div className="md:w-1/2">
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">Innovate. Transform. Excel.</h1>
+            <p className="text-lg mb-6">Emp “
+
+System: I'm sorry, but it looks like your message was cut off. The code for the homepage UI design in the `<xaiArtifact>` tag appears incomplete, and the documentation is missing. Could you clarify or provide the complete requirements if you want me to finish the implementation? 
+
+Based on the provided instructions, I'll complete the futuristic homepage design for Qualtech Edge using React with Tailwind CSS, ensuring it aligns with the company’s branding (colors: #1C2526, #00AEEF, #F5F6F5, #2E3A59) and emphasizes a modern, BFSI-focused aesthetic. I’ll also include a markdown documentation file describing the design choices. Both deliverables will be wrapped in separate `<xaiArtifact>` tags with unique UUIDs.
+
+Here’s the complete solution:
+
+<xaiArtifact artifact_id="b5d7506f-9c4e-480d-b562-1a09277ffa7d" artifact_version_id="a79f7915-97b3-452a-9437-10373bbd4930" title="index.html" contentType="text/html">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Qualtech Edge Homepage</title>
+  <script src="https://cdn.jsdelivr.net/npm/react@18.2.0/umd/react.production.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/react-dom@18.2.0/umd/react-dom.production.min.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+    body { font-family: 'Inter', sans-serif; }
+    .hero-bg { background: linear-gradient(135deg, #1C2526 0%, #2E3A59 100%); }
+    .glow-effect { box-shadow: 0 0 20px rgba(0, 174, 239, 0.3); }
+    .animate-float { animation: float 3s ease-in-out infinite; }
+    @keyframes float { 
+      0%, 100% { transform: translateY(0); } 
+      50% { transform: translateY(-10px); } 
+    }
+    .hover-scale { transition: transform 0.3s; }
+    .hover-scale:hover { transform: scale(1.05); }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="text/babel">
+    const Hero = () => (
+      <section className="hero-bg text-white py-20 px-6 md:px-12 lg:px-24">
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center">
+          <div className="md:w-1/2">
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">Innovate. Transform. Excel.</h1>
+            <p className="text-lg mb-6">Empowering BFSI with cutting-edge technology solutions that drive exceptional customer experiences and redefine industry standards.</p>
+            <button className="bg-[#00AEEF] text-white px-6 py-3 rounded-full glow-effect hover-scale">Discover Our Solutions</button>
+          </div>
+          <div className="md:w-1/2 mt-10 md:mt-0">
+            <img src="https://via.placeholder.com/500x400?text=Futuristic+BFSI+Graphic" alt="Tech Graphic" className="animate-float" />
+          </div>
+        </div>
+      </section>
+    );
+
+    const Features = () => (
+      <section className="bg-[#F5F6F5] py-16 px-6 md:px-12 lg:px-24">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1C2526] text-center mb-12">Our Technology Edge</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="bg-white p-6 rounded-lg glow-effect hover-scale">
+              <h3 className="text-xl font-semibold text-[#1C2526] mb-2">AI-Driven Insights</h3>
+              <p className="text-[#2E3A59]">Leverage AI to unlock actionable insights for smarter financial decisions.</p>
+            </div>
+            <div className="bg-white p-6 rounded-lg glow-effect hover-scale">
+              <h3 className="text-xl font-semibold text-[#1C2526] mb-2">Seamless Integration</h3>
+              <p className="text-[#2E3A59]">Integrate advanced solutions with your existing systems effortlessly.</p>
+            </div>
+            <div className="bg-white p-6 rounded-lg glow-effect hover-scale">
+              <h3 className="text-xl font-semibold text-[#1C2526] mb-2">Secure & Scalable</h3>
+              <p className="text-[#2E3A59]">Build trust with robust, scalable platforms designed for BFSI.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    );
+
+    const CTA = () => (
+      <section className="bg-[#00AEEF] text-white py-16 px-6 md:px-12 lg:px-24">
+        <div className="max-w-7xl mx-auto text-center">
+          <h2 className="text-3xl font-bold mb-4">Ready to Transform Your BFSI Journey?</h2>
+          <p className="text-lg mb-6">Partner with Qualtech Edge to unlock innovative technology solutions.</p>
+          <button className="bg-[#1C2526] text-white px-6 py-3 rounded-full glow-effect hover-scale">Get in Touch</button>
+        </div>
+      </section>
+    );
+
+    const Footer = () => (
+      <footer className="bg-[#1C2526] text-white py-10 px-6">
+        <div className="max-w-7xl mx-auto text-center">
+          <p>&copy; 2025 Qualtech Edge. All rights reserved.</p>
+        </div>
+      </footer>
+    );
+
+    const App = () => (
+      <div>
+        <Hero />
+        <Features />
+        <CTA />
+        <Footer />
+      </div>
+    );
+
+    ReactDOM.render(<App />, document.getElementById('root'));
+  </script>
+</body>
+</html>
