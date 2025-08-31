@@ -14,3 +14,10 @@ The design emphasizes:
 5. Import the design into Figma using a plugin like "HTML to Figma" for further refinement.
 
 **Note**: The code below is a single-page React app to represent the Figma design. For actual Figma delivery, you can use the rendered output as a reference to recreate layers and components in Figma.
+**Instructions for Submission**:
+1. Copy the `index.html` code into a new file and preview it locally to verify the design.
+2. Import the rendered design into Figma using a plugin or manually recreate components based on the code structure.
+3. Save the `design_documentation.md` file for reference.
+4. Submit both the Figma file (exported or shared link) and the documentation within 48 hours.
+
+This design leverages Qualtech Edge’s branding to create a futuristic, BFSI-focused homepage that positions the company as an innovative tech leader. Let me know if you need further refinements or additional components!
